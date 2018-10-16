@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-size:12px;
+	background:#efefef;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+	cursor:pointer;
+}
+ul,li{
+	list-style:none;
+}
+
+img{
+	display:block;
+    border:none;
+}
+span{
+	display:inline-block;
+}
+
+
+/*header*/
+.header{width:100%;height:90px;background:#fff;}
+.logo{width:1200px;height:90px;margin:0 auto;position:relative;}
+.logo img{width:390px;height:60px;position:absolute;left:0;top:15px;cursor:pointer;}
+
+/*banner*/
+.banner{width:100%;padding-top:10px;font-size:16px;}
+.banner_top{width:1170px;background:#fff;margin:0 auto;padding:15px 15px 0;}
+.shopcar{width:1200px}
+.myshop{overflow:hidden;font-size:16px;}
+.myshop strong{float:left;margin-bottom:15px;}
+.myshop a{float:right;color:#222;margin-right:50px;margin-top:10px;}
+form{width:1170px;padding-bottom:40px;}
+form table{width:100%;border:1px solid #dee2e6;}
+table th,table td{border:1px solid #dee2e6;padding:12px;text-align:left;vertical-align:top;}
+table{border-collapse:collapse;}
+.row_left img{width:80px;height:80px;}
+.row_left{float:left;margin-right:40px;}
+.row_right{float:left;}
+.row_right a{color:black;}
+.jian{width:35px;border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.jia{width:40px;}
+.jia,.jian{cursor:pointer;float:left;height:40px;border:1px solid #6c757d;background:#fff;}
+.input_app input{border-top:1px solid #dee2e6;border-bottom:1px solid #dee2e6;display:block;width:90px;height:38px;float:left;padding-left:10px;}
+.lasttd a{width:60px;height:40px;background:#dc3545;color:#fff;text-align:center;line-height:40px;border-radius:5px;}
+
+.banner_bot{width:1170px;padding:15px;background:#fff;margin:15px auto 0;}
+.cheap{width:1150px;height:95px;display:none;color:#383d41;background:#efefef;border-radius:5px;padding:15px 0 0 20px;}
+.cheap h2{margin-bottom:10px;font-weight:100;font-size:26px;}
+.expan{text-align:right;}
+.expan p{margin-top:20px;}
+.expan span{color:#ff004f;line-height:65px;}
+.expan h5{font-size:16px;margin-bottom:20px;}
+.secondary,.danger{height:38px;line-height:38px;text-align:center;color:#fff;border-radius:5px;}
+.secondary{width:90px;background:#dc3545;}
+.danger{width:78px;background:#6c757d;}
+
+/*footer*/
+.footer{text-align:center;background:#fff;font-size:16px;margin:30px auto 0;padding-top:26px;}
+.text-top{margin-bottom:30px;}
+.text-top a{margin-right:30px;color:#000;}
+.text-center{color:#212529;}
+.text-bot img{display:inline-block;vertical-align:middle;}
+.text-bot a{color:#000;}

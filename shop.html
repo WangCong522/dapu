@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/shop.css" />
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="logo">
+			<a href=""><img src="img/1.png" class="logoimg"/></a>
+		</div>
+	</div>
+	
+	<!--banner-->
+	<div class="banner">
+		<div class="banner_top">
+			<div class="shopcar">
+				<div class="myshop">
+					<strong>我的购物车</strong>
+					<a href="">清空购物车</a>
+				</div>
+				<form action="">
+					<table cellspace="0" cellpadding="0"> 
+						<tr class="one">
+							<th wdith="5%"><input type="checkbox" class="checkAll"/></th>
+							<th wdith="40%">商品信息</th>
+							<th wdith="10%">商品单价</th>
+							<th wdith="15%">商品数量</th>
+							<th wdith="10%">小计</th>
+							<th wdith="10%">操作</th>
+						</tr>
+						<tr class="two">
+							<td><input type="checkbox" class="check"/></td>
+							<td>
+								<div class="row">
+									<div class="row_left">
+										<a href=""><img src="img/19.jpg"/></a>
+									</div>
+									<div class="row_right">
+										<a href="">暖绒细羊毛被</a>
+										<p>尺寸200cm*230cm</p>
+									</div>
+								</div>
+							</td>
+							<td>
+								<span>￥1499</span>
+							</td>
+							<td class="input_app">
+								<div><button type="button" class="jian">-</button></div>
+								<input type="text" value="1" class="textj"/>
+								<div><button type="button" class="jia">+</button></div>
+							</td>
+							<td>￥1499</td>
+							<td class="lasttd"><a href="">删除</a></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<div class="banner_bot">
+			<div class="cheap">
+				<h2>已享受的促销优惠:</h2>
+				<p>购物满88元包邮</p>
+			</div>
+			<div class="expan">
+				<p>原始金额：￥1499</p>
+				<span>优惠金额：￥0</span>
+				<h5>商品总金额(不含运费)：￥1499</h5>
+				<a href="" class="secondary">继续购物</a>
+				<a href="" class="danger">去结算</a>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<div class="text-top">
+			<a href="index.html" class="footer_a">首页</a>
+			<a href="" class="footer_a">关于大朴</a>
+			<a href="" class="footer_a">帮助中心</a>
+			<a href="" class="footer_a">联系我们</a>
+			<a href="" class="footer_a">微商城版</a>
+		</div>
+		<div class="text-center">Copyright © 2013-2018 dapu.com 北京大朴至向家居设计有限公司  京ICP备12027522号 京ICP证130030号</div>
+		<div class="text-bot">
+			<a href="" class="footer_a">
+				<img src="img/dapu_icon-police.png"/>
+				<span>京公网安备 11010502030202号</span>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+	$(function(){
+		$(".jia,.jian").hover(
+			function(){
+				$(this).css({"background":"#6c757d"})
+			},
+			function(){
+				$(this).css({"background":"#fff"})
+			}
+		)
+		
+		var t=$("textj");
+		$(".jia").click(
+			function(){
+				t.val(parseInt(t.val())+1);
+			}
+		)
+		for(let i=0;i<$(".footer_a").length;i++){
+			$(".footer_a").eq(i).hover(
+				function(){
+					$(".footer_a").eq(i).css({"color":"#0056b3"})
+				},
+				function(){
+					$(".footer_a").eq(i).css({"color":"#000"})
+				}
+			)
+		}
+
+//		购物车全选
+		jQuery.fn.extend({
+			check:function(){
+				this.each(function(){
+					this.checked = true;
+				});
+			},
+			uncheck:function(){
+				this.each(function(){
+					this.checked = false;
+				});
+			}			
+		});
+		$(".checkAll").click(function(){
+			if(this.checked){
+				$(".check").check();
+				$(".cheap").css({"display":"block"})
+			}else{
+				$(".check").uncheck();
+				$(".cheap").css({"display":"none"})
+			}
+		})
+
+		$(".check").click(function(){
+			if(this.checked){
+				$(".check").check();
+				$(".cheap").css({"display":"block"})
+			}else{
+				$(".check").uncheck();
+				$(".cheap").css({"display":"none"})
+			}
+		})
+		
+		
+	
+	
+	})
+</script>

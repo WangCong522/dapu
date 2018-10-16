@@ -1,0 +1,25 @@
+
+
+/*reg*/
+.reg{position:relative;width:1200px;height:410px;background:url(../img/38.jpg) no-repeat;background-size:1200px 410px;margin-top:50px;margin-bottom:60px;}
+.formBox{width:500px;height:370px;background:#fff;border-radius:5px;opacity:0.9;padding:10px;margin:10px;float:right;}
+.formBox h3{text-align:center;border-bottom:1px solid #877b74;margin-bottom:50px;color:#877b74;font-size:26px;line-height:41px;}
+.formBox div{margin-bottom:20px;height:30px;}
+.formBox .lab{display:block;float:left;width:160px;cursor:pointer;padding-top:5px;text-align:right;font-size:14px;line-height:20px;}
+.formBox form input{float:left;width:147px;vertical-align:middle;height:30px;text-align:left;border:1px solid gray;border-radius:3px;padding-left:5px;}   
+.formBox form .btn{margin-left:180px;width:54px;height:30px;text-align:center;font-size:14px;background:#49afcd;color:white;border:1px solid #2f96b4;margin-right:10px;cursor:pointer;}   
+form a{line-height:30px;color:#49afcd;}
+form span{color:red;line-height:30px;margin-left:3px;display:none;}
+.formBox p{text-align:center;}   
+.formBox p a{color:#877b74;}    
+
+/*footer*/
+/*.context{width:1200px;height:16px;margin-top:30px;}
+.context ul{overflow:hidden;width:235px;margin:0 auto;}
+.context ul li{float:left;margin-left:5px;color:#6b6b6b;}
+.context ul li a{display:inline-block;color:#6b6b6b;}
+.context_bot{text-align:center;margin-top:5px;}
+.context_bot p{display:inline-block;color:#6b6b6b;}
+.context_bot a{display:inline-block;color:#939393;margin-top:5px;margin-bottom:10px;}*/
+
+

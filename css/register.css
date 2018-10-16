@@ -1,0 +1,13 @@
+
+/*reg*/
+.reg{position:relative;width:1200px;height:450px;background:url(../img/38.jpg) no-repeat;background-size:1200px 450px;}
+.reg form{width:540px;height:400px;position:absolute;right:10px;top:5px;background:#fff;border-radius:5px;font-size:12px;color:#5E5E5E;padding:20px 0;}
+form .lab{display:block;float:left;width:110px;text-align:right;line-height:25px;}
+form input{float:left;width:185px;height:25px;border:1px solid #dad9d9;}
+form div{height:50px;}
+.imgbtn{width:79px;height:26px;margin-left:10px;line-height:26px;color: #6B6B6B;font-size:12px;cursor:pointer;background:#f0f0f0;}
+.field1 span{display:inline;padding:2px 15px 3px 15px;margin:0 2px 1em 2px;background-color:#ffffe6;color:#f00;}
+.field3,.field7,.actions{margin-left:110px;}
+.field7 a{color:#6B6B6B;}
+.submit{width:200px;height:40px;background:#fff;margin-right:3px;cursor:pointer;}
+.actions a{color:red;line-height:40px;}
